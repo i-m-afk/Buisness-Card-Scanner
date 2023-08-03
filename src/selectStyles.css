@@ -1,0 +1,53 @@
+.select-container {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+/* Styling the dropdown indicator arrow */
+.select-container .dropdown-indicator {
+  color: #333;
+}
+
+/* Styling the option in the dropdown list */
+.select-container .option {
+  color: #333;
+  cursor: pointer;
+}
+
+/* Styling the selected option */
+.select-container .singleValue {
+  color: #333;
+}
+
+/* Styling the control wrapper */
+.select-container .control {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Styling the control when it's focused */
+.select-container .control.is-focused {
+  border-color: #007bff;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling the control when it's hovered */
+.select-container .control:hover {
+  border-color: #007bff;
+}
+
+/* Styling the menu container */
+.select-container .menu {
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  color: #333;
+}
+
+/* Styling the menu options when hovered */
+.select-container .menu .option:hover {
+  background-color: #f2f2f2;
+}
