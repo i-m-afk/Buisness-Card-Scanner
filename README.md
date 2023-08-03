@@ -11,7 +11,7 @@ User will get a json response with the extracted information.
 
 To install the program, clone the repository and run `npm install` to install the dependencies. To run the program, run `npm run dev` and follow the prompts.
 
-## To Do
+## To Do/ Expand upon
 
 - Make it responsive
 - Better OCR accuracy
